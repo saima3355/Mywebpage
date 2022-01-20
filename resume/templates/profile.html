@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<head>
+<style>
+body {
+  background-image: url('https://wallpapercave.com/wp/wp8778363.jpg');
+  background-repeat: no-repeat;
+  background-size : 1368px 750px;
+}
+</style>
+</head>
+<h1 style="text-align:left;
+color:white;
+padding-top:80;
+margin-left:2em;" >Profile Page Project</h1>
+
+<h2 style="text-align:justify;
+color:white;
+padding-top:10;
+margin-left:2.5em;
+margin-right:3.5em;
+line-height:2;"><i>"Profile Project" is all about my website. I had a thought to display my resume as a website so I started this. With the help of Django I created views, urls related to my page and with the help of HTML, CSS I gave an outer look to my website.   </i></h2>
+
+
+<footer>
+<h3 style="text-align:right;
+color:white;
+padding-top:65;
+margin-right:3.5em;"><i>Go to&ensp;</i><a style="color:white;" href = "{% url 'speech' %}">Speech Recognition project</a></h3>
+</footer>
+{% endblock content %}

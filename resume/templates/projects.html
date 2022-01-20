@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<head>
+<style>
+body {
+  background-image: url('https://wallpapercave.com/wp/wp4434826.jpg');
+  background-repeat: no-repeat;
+  background-size : 1368px 761px;
+}
+</style>
+</head>
+
+<h1 style="text-align:left;
+padding-top:40;
+margin-left:2em;
+line-height:2"><a style="color:white;text-decoration:none;" href="{% url 'profile' %}"><b>Profile Page Project</b></a></h1>
+<h1 style="text-align:left;
+margin-left:2em;
+line-height:2"><a style="color:white;text-decoration:none;" href="{% url 'speech' %}"><b>Speech Recognition Project</b></a></h1>
+{% endblock content %}

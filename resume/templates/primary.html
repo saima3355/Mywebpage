@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<head>
+<style>
+body {
+  background-image: url('https://wallpapercave.com/wp/wp1966321.jpg');
+  background-repeat: no-repeat;
+  background-size : 1368px 750px;
+}
+</style>
+</head>
+<h1 style="text-align:left;
+color:white;
+padding-top:80;
+margin-left:7em;" >PRIMARY EDUCATION</h1>
+<h2 style="text-align:justify;
+color:white;
+padding-top:10;
+margin-left:9em;
+margin-right:20em;
+line-height:2"><i>At the age of 5, I started my schooling in Zilla Parishad High School, Rajam. Later, I moved to Government High School in the same town for my Primary Education. I was very interested in the subject of Natural Science in my childhood. With my interest in learning new things and seeking knowledge in them, I used to participate in Essay Writing competitions.
+</i></h2>
+<footer>
+<h3 style="text-align:right;
+color:white;
+padding-top:65;
+margin-right:200;"><i>Go to&ensp;</i><a style="color:white;" href = "{% url 'secondary' %}">SECONDARY EDUCATION</a></h3>
+</footer>
+{% endblock content %}
